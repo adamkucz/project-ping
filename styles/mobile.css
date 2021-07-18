@@ -59,8 +59,7 @@
 
   footer img {
     width: 325px;
-    margin: 26.5px 0;
-    display: inline;
+    margin: 26.5px 0 22px 0;
   }
 
   #overview {
@@ -89,17 +88,4 @@
   #over-zoom {
     display: none;
   }
-  
-
-
-
-
-
-
-
-
-
-
-  
-  
 }
