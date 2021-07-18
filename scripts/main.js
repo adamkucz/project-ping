@@ -1,9 +1,20 @@
-window.onscroll = function() {resizeHeader()}
+window.onscroll = () => {resizeHeader()}
 
+// direct user to screening survey with correct URL params
+function redirectScreener(){
+  const url = new URL (window.location.href)
+  const ref = url.searchParams.get("ref")
+
+  let screenerlink = new URL("https://uwartsandsciences.sjc1.qualtrics.com/jfe/form/SV_1GNBEXEEwFzhwcm")
+  screenerlink.searchParams.append("ref", ref)
+  window.location.replace(screenerlink)
+}
+
+// navbar change size upon scroll
 function resizeHeader(){
 
-  var nav = document.getElementsByTagName('nav')[0]
-  var pplogo = nav.getElementsByTagName('img')[0]
+  const nav = document.getElementsByTagName('nav')[0]
+  const pplogo = nav.getElementsByTagName('img')[0]
 
   const mediaQuery = window.matchMedia('(min-width: 601px)')
 
