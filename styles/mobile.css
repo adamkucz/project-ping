@@ -1,0 +1,105 @@
+@media only screen and (max-width: 600px) {
+
+  nav {
+    font-size: 18px;
+    height: 130px;
+  }
+
+  nav img {
+    max-width: 125px;
+    max-height: 125px;
+  }
+
+  nav ul {
+    display:none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    margin: 0 20px;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: left;
+  }
+
+  #overview {
+    font-size: inherit;
+  }
+
+  #screener-button {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  #screener-button span:first-of-type {
+    padding-top: 15px;
+  }
+
+  #screener-button span:last-of-type {
+    padding-bottom: 6px;
+    font-size: 13px;
+    font-weight: normal;
+  }
+
+  .about-person {
+    display: unset;
+  }
+  
+  .about-person img {
+    float: unset;
+  }
+  
+  .about-person p {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  footer img {
+    width: 325px;
+    margin: 26.5px 0;
+    display: inline;
+  }
+
+  #overview {
+    text-align: left;
+    margin-bottom: 25px;
+  }
+
+  #overview ul {
+    padding-left: 25px;
+  }
+
+  #overview ul li:first-of-type {
+    list-style: none;
+  }
+
+  #overview ul li {
+    list-style: none;
+    list-style-type: disc;
+    text-align: left;
+  }
+
+  .clear {
+    height: 120px;
+  }
+
+  #over-zoom {
+    display: none;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+}
