@@ -4,9 +4,20 @@ window.onscroll = () => {resizeHeader()}
 function redirectScreener(){
   const url = new URL (window.location.href)
   const ref = url.searchParams.get("ref")
+  const utm_campaignid = url.searchParams.get("utm_campaignid")
+  const utm_adsetid = url.searchParams.get("utm_adsetid")
+  const utm_adid = url.searchParams.get("utm_adid")
+  const utm_placement = url.searchParams.get("utm_placement")
+  const utm_sitesource = url.searchParams.get("utm_sitesource")
+  
 
   let screenerlink = new URL("https://uwartsandsciences.sjc1.qualtrics.com/jfe/form/SV_1GNBEXEEwFzhwcm")
   screenerlink.searchParams.append("ref", ref)
+  screenerlink.searchParams.append("utm_campaignid", utm_campaignid)
+  screenerlink.searchParams.append("utm_adsetid", utm_adsetid)
+  screenerlink.searchParams.append("utm_adid", utm_adid)
+  screenerlink.searchParams.append("utm_placement", utm_placement)
+  screenerlink.searchParams.append("utm_sitesource", utm_sitesource)
   window.location.replace(screenerlink)
 }
 
