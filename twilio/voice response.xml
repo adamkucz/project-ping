@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Say>
+  Hello! You have reached the study team for Project Ping. We are currently not able to accept calls,
+  but please email us at Project Ping @ u w dot e d u. Thank you!
+  </Say>
+  <Hangup></Hangup>
+</Response>

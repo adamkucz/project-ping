@@ -17,7 +17,7 @@ html, body {
 nav {
   height: 200px;  
   font-size: 20px;
-  background-image: linear-gradient(to right, var(--blue1), var(--blue2), var(--blue3));
+  background-image: linear-gradient(to right, rgb(28, 6, 105), rgb(48, 66, 167), rgb(112, 126, 230));
   text-align: center;
   margin-bottom: 20px;
 
